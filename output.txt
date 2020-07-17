@@ -1,0 +1,1 @@
+'Cyprus': 12, 'Austria': 10, 'Netherlands': 9, 'Germany': 8, 'Albania': 7, 'Greece': 6, 'Bosnia and Herzegovina': 5, 'Estonia': 4, 'Belgium': 3, 'Russia': 2, 'United Kingdom': 1
