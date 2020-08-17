@@ -1,10 +1,3 @@
-def remove_element(list_,index_):
-        clipboard = []
-        for i in range(len(list_)):
-            if i is not index_:
-                clipboard.append(list_[i])
-        return clipboard
-
 
 '''
 АЛГОРИТМ
