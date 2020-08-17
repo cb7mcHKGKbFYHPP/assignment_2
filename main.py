@@ -34,7 +34,6 @@ def estimate ():
         sum_of_votes = 0
         for i in range(1, 20):
             sum_of_votes += int(line[i])
-            print(i)
         votes.append(sum_of_votes)
         del sum_of_votes
     dictionary = dict(zip(countries, votes))
@@ -50,11 +49,14 @@ def create_file():
     fout.close()
     
 def write(to_write):
+    '''Функція, яка переписує в файл результат обчислень.'''
     fout = open("output.txt", "a")
     text1 = str(to_write)
     text2 = ""
     i = 1
     while text1:
+        '''while не може самостійно зупинитися, тому
+           використана "змушена" перевірка'''
         if text1[i] == text1[-1]:
           break
         text2 += text1[i]
